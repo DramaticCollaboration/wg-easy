@@ -3,7 +3,8 @@ volumes:
 
 services:
   wg-easy:
-    #environment:
+    environment:
+      - INSECURE=false
     #  Optional:
     #  - PORT=51821
     #  - HOST=0.0.0.0
