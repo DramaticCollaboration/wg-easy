@@ -1,9 +1,5 @@
 http:
   middlewares:
-    services:
-      basicAuth:
-        users:
-          - '$username$:$password$'
     compress:
       compress: {}
     hsts:
